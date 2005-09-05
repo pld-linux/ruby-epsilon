@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 ruby-epsilon is an extension to use the fast E17 epsilon thumbnailer.
 
 %description -l pl
-ruby-epslion to rozszerzenie pozwalaj±ce u¿ywaæ szybkiej biblioteki
+ruby-epsilon to rozszerzenie pozwalaj±ce u¿ywaæ szybkiej biblioteki
 E17 do tworzenia miniaturek.
 
 %prep
