@@ -3,6 +3,7 @@
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 %define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
 Summary:	Epsilon thumbnail library for Ruby
+Summary(pl):	Epsilon - biblioteka miniaturek dla jêzyka Ruby
 Name:		ruby-epsilon
 Version:	0.0.0
 Release:	1
@@ -10,7 +11,7 @@ License:	Ruby License
 Group:		Development/Languages
 Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	3acc9bcf826b29019931fbebc8f4b069
-URL:	http://theinternetco.net/projects/ruby/ruby-epsilon
+URL:		http://theinternetco.net/projects/ruby/ruby-epsilon
 BuildRequires:	epsilon-devel
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
@@ -18,7 +19,11 @@ Requires:	ruby
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-ruby-xattr is an extension to use the fast E17 epsilon thumbnailer.
+ruby-epsilon is an extension to use the fast E17 epsilon thumbnailer.
+
+%description -l pl
+ruby-epslion to rozszerzenie pozwalaj±ce u¿ywaæ szybkiej biblioteki
+E17 do tworzenia miniaturek.
 
 %prep
 %setup -q
