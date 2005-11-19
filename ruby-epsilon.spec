@@ -1,7 +1,3 @@
-%define	ruby_rubylibdir	%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
-%define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
 Summary:	Epsilon thumbnail library for Ruby
 Summary(pl):	Epsilon - biblioteka miniaturek dla jêzyka Ruby
 Name:		ruby-epsilon
@@ -13,6 +9,7 @@ Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	3acc9bcf826b29019931fbebc8f4b069
 URL:		http://theinternetco.net/projects/ruby/ruby-epsilon
 BuildRequires:	epsilon-devel
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
