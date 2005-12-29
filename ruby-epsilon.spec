@@ -9,9 +9,9 @@ Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 # Source0-md5:	3acc9bcf826b29019931fbebc8f4b069
 URL:		http://theinternetco.net/projects/ruby/ruby-epsilon
 BuildRequires:	epsilon-devel
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
