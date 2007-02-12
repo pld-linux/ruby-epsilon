@@ -1,5 +1,5 @@
 Summary:	Epsilon thumbnail library for Ruby
-Summary(pl):	Epsilon - biblioteka miniaturek dla jêzyka Ruby
+Summary(pl.UTF-8):   Epsilon - biblioteka miniaturek dla jÄ™zyka Ruby
 Name:		ruby-epsilon
 Version:	0.0.0
 Release:	2
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ruby-epsilon is an extension to use the fast E17 epsilon thumbnailer.
 
-%description -l pl
-ruby-epsilon to rozszerzenie pozwalaj±ce u¿ywaæ szybkiej biblioteki
+%description -l pl.UTF-8
+ruby-epsilon to rozszerzenie pozwalajÄ…ce uÅ¼ywaÄ‡ szybkiej biblioteki
 E17 do tworzenia miniaturek.
 
 %prep
