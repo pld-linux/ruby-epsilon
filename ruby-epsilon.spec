@@ -1,5 +1,5 @@
 Summary:	Epsilon thumbnail library for Ruby
-Summary(pl.UTF-8):   Epsilon - biblioteka miniaturek dla języka Ruby
+Summary(pl.UTF-8):	Epsilon - biblioteka miniaturek dla języka Ruby
 Name:		ruby-epsilon
 Version:	0.0.0
 Release:	2
